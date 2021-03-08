@@ -1,33 +1,34 @@
-# Healthcare Market in the Greater China Region: project overview(https://github.com/ahdfks/project_HC_Asia)
-## ➢ Created a dashboard to understand the healthcare market in mainland China, Hongkong, Taiwan and South Korea
-## ➢ Data collection: scraped over 1000 companies from LinkedIn using linked helper scraper
-## ➢ Data cleaning: cleand raw data and derived a file to prioritize companies covering target therapeutic areas
-## ➢ EDA: parsed string data of each company's specialities to quantify the value they put on each therapeutic area
-## ➢ Data visualisation: built a dashboard to understand companies/therapeutic areas ditribution by each specific level
+# Healthcare Market in the Greater China Region: 
+## project overview(https://github.com/ahdfks/project_HC_Asia)
+➢ Created a dashboard to understand the healthcare market in mainland China, Hongkong, Taiwan and South Korea
+➢ Data collection: scraped over 1000 companies from LinkedIn using linked helper scraper
+➢ Data cleaning: cleand raw data and derived a file to prioritize companies covering target therapeutic areas
+➢ EDA: parsed string data of each company's specialities to quantify the value they put on each therapeutic area
+➢ Data visualisation: built a dashboard to understand companies/therapeutic areas ditribution by each specific level
 
 # Code and Resources used
-## Python version: 3.8.5
-## Packages: pandas, numpy, seaborn, matplotlib.pyplot
-## Tableau: 2020.4
+Python version: 3.8.5
+Packages: pandas, numpy, seaborn, matplotlib.pyplot
+Tableau: 2020.4
 
 # LinkedIn company profile scraping
-## Scraped 1000 companies in pharmaceuticals, biotechnology, and medical device industry in the Greater China Region
-## With each company profile, we got the following: 
-## •	 Company ID
-## •	 Company name
-## •	 Industry
-## •	 Type of ownership
-## •	 Founded year
-## •	 Company description: with FDA, CE, EMA and other international certifications
-## •	 HQ country: China, Taiwan, South Korea
-## •	 HQ city level
-## •	 HQ province level
-## •	 Specialities: immuno-oncology, CNS, probiotics, cardiovascular, diabetes, orthopedics etc
-## •	 Profile url
-## •	 Website
-## •	 Phone
-## •	 Staff counts
-## •	 Follower counts
+Scraped 1000 companies in pharmaceuticals, biotechnology, and medical device industry in the Greater China Region
+With each company profile, we got the following: 
+•	 Company ID
+•	 Company name
+•	 Industry
+•	 Type of ownership
+•	 Founded year
+•	 Company description: with FDA, CE, EMA and other international certifications
+•	 HQ country: China, Taiwan, South Korea
+•	 HQ city level
+•	 HQ province level
+•	 Specialities: immuno-oncology, CNS, probiotics, cardiovascular, diabetes, orthopedics etc
+•	 Profile url
+•	 Website
+•	 Phone
+•	 Staff counts
+•	 Follower counts
 
 # Data Cleaning
 After scraping the data, it is necessary to clean it up. 
@@ -67,3 +68,4 @@ o  EMA
 # Exploratory Data Analysis
 Created the distributions of cleaned data and the value counts for the various categorical variables
 Below are a few highlights from the pivot tables:
+![thera](https://user-images.githubusercontent.com/79106560/110397060-6f2fde80-8071-11eb-9c9d-a4d8fa97965d.png)
