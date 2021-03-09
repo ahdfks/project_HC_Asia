@@ -31,7 +31,7 @@ With each company profile, we got the following:
 *	Staff counts
 *	Follower counts
 
-## Data Cleaning (by using Spyder)
+## Data Cleaning (by Spyder)
 After scraping the data, it is necessary to clean it up.\
 I made the following changes and created the following variables:
 *	Simplified name by removing city and business structure abbr out of company name text
@@ -66,15 +66,14 @@ o  EMA
 * Added description length column for in-depth information
 * Replaced NaN with null
 
-## Exploratory Data Analysis (by using jupyter notebook)
+## Exploratory Data Analysis (by Jupyter Notebook)
 Created the distributions of cleaned data and the value counts for the various categorical variables\
 Below are a few highlights from the pivot tables:
+
 ![thera](https://user-images.githubusercontent.com/79106560/110397060-6f2fde80-8071-11eb-9c9d-a4d8fa97965d.png)
 ![type](https://user-images.githubusercontent.com/79106560/110399401-1a429700-8076-11eb-98e0-a7f67d5dfa11.png)
-![industry](https://user-images.githubusercontent.com/79106560/110399409-1ca4f100-8076-11eb-95e2-e626b00ad890.png)
-![province](https://user-images.githubusercontent.com/79106560/110399416-1e6eb480-8076-11eb-9ba0-ecf0eb332f7a.png)
 
-## Data Visualisation (by using Tableau)
+## Data Visualisation (by Tableau)
 Because juypyter notebook has a limitation on data visualisation,\
 I used Tableau to optimize research results by comparing data by country/city/other specific combined levels\
 The dashboard is made up of following several sections:
