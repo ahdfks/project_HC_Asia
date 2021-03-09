@@ -36,7 +36,7 @@ After scraping the data, it is necessary to clean it up.\
 I made the following changes and created the following variables:
 *	Simplified name by removing city and business structure abbr out of company name text
 * Transformed founded year into age of company
-* Created 18 therapeutic categories and matches list
+* Created 18 therapeutic categories and matches list\
 o  Oncology\
 o  Rare diseases\
 o  Dermatology\
