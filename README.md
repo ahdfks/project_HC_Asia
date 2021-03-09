@@ -4,7 +4,7 @@
 * Data collection: scraped over 1000 companies from LinkedIn using linked helper scraper
 * Data cleaning: cleaned raw data and derived a file to prioritize companies covering target therapeutic areas
 * EDA: parsed string data of each company's specialities to quantify the value they put on each therapeutic area
-* Data visualisation: built a dashboard to understand companies/therapeutic areas ditribution by each specific level
+* Data visualisation: built a dashboard to understand companies/therapeutic areas distribution by each specific level
 
 ## Code and Resources used
 **Python version:** 3.8.5\
@@ -55,10 +55,10 @@ o  ENT\
 o  Pain management\
 o  Urology
 * Made a function to separate multi strings in specialities column and then classify therapeutic areas list(above) from each separated speciality
-* Added a therapeutic areas file by keeping companies who covered therapeutic areas above
-* Removed duplicated therapeutic areas by company level
+* Added a therapeutic areas file by keeping companies who covered target therapeutic areas above
+* Removed duplicated therapeutic areas in each company
 * Added specialities length column to get detailed information
-* Made a column for if intl certifications were listed in the company description column\
+* Made a column for if intl certifications were listed in the company description text\
 o  CE\
 o  FDA\
 o  EMA
