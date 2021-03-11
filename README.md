@@ -73,9 +73,7 @@ Below are a few highlights from the pivot tables:
 ![type](https://user-images.githubusercontent.com/79106560/110399401-1a429700-8076-11eb-98e0-a7f67d5dfa11.png)
 
 ## Data Visualisation (on Tableau)
-Because juypyter notebook has a limitation on data visualisation,\
-I used Tableau to optimize research results by comparing data by country/city/other specific combined levels.\
-The dashboard is made up of following several sections:
+Because juypyter notebook has a limitation on data visualisation, I used Tableau to optimize research results by comparing data by country/city/other specific combined levels. The dashboard is made up of following several sections:
 <img width="1440" alt="dashboard" src="https://user-images.githubusercontent.com/79106560/110532992-d014f080-811d-11eb-8c6a-3850a811467b.png">
 
 
